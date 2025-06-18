@@ -19,7 +19,7 @@
         font-family:"Impact", fantasy;
       }
       h2, h3, h4 {
-        font-family:"roboto", sans-serif;
+        font-family:"Molot";
       } q
       .old-style-border {
         border: 3px double #85ffff;
@@ -29,7 +29,7 @@
       .blink {
         animation: blinker 1s linear infinite;
       }
-      
+
     </style>
     <script>
       document.addEventListener("DOMContentLoaded", () => {
