@@ -48,6 +48,8 @@
           <li><a href="#main" class="hover:underline">Main</a></li>
           <li><a href="#place" class="hover:underline">Place</a></li>
           <li><a href="#about" class="hover:underline">About</a></li>
+          <li><a href="#fact" class="hover:underline">Facts</a></li>
+          <li><a href="#faq" class="hover:underline">FAQ</a></li>
         </ul>
       </div>
     </nav>
@@ -65,30 +67,47 @@
     <section id="place" class="container mx-auto px-4 py-10 mb-12">
       <h3 class="text-4xl text-center font-semibold text-yellow-300 mb-6">My Favourite Places</h3>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div class="product-card bg-yellow-200 p-4 rounded shadow-md transform opacity-0 translate-y-10 transition duration-700 old-style-border text-purple-400">
+        <div class="product-card bg-yellow-200 p-4 rounded shadow-md transform opacity-0 translate-y-10 transition duration-700 old-style-border text-purple-500">
           <img src="https://windows10spotlight.com/wp-content/uploads/2021/11/106f8a744fd417edc39ca10a1f152426.jpg" alt="PRAGUE" class="rounded mb-2 w-full h-60 object-cover" />
           <h4 class="text-2xl font-bold text-cyan-400">PRAGUE</h4>
           <p class="italic">Prague is very beautiful place located in Czech Republic </p>
         </div>
-        <div class="product-card bg-blue-500 p-4 rounded shadow-md transform opacity-0 translate-y-10 transition duration-700 old-style-border text-green-300">
+        <div class="product-card bg-blue-500 p-4 rounded shadow-md transform opacity-0 translate-y-10 transition duration-700 old-style-border text-black-600">
           <img src="https://www.holidify.com/images/bgImages/SINGAPORE.jpg" alt="SINGAPORE" class="rounded mb-2 w-full h-60 object-cover" />
           <h4 class="text-2xl font-bold text-cyan-400">SINGAPORE</h4>
           <p class="italic">"Singapore one of the most hitech city which have many innovation"</p>
         </div>
-        <div class="product-card bg-red-200 p-4 rounded shadow-md transform opacity-0 translate-y-10 transition duration-700 old-style-border text-yellow-500">
+        <div class="product-card bg-red-200 p-4 rounded shadow-md transform opacity-0 translate-y-10 transition duration-700 old-style-border text-yellow-600">
           <img src="https://media.tacdn.com/media/attractions-content--1x-1/10/6e/96/28.jpg" alt="MONACO" class="rounded mb-2 w-full h-60 object-cover" />
           <h4 class="text-2xl font-bold text-cyan-400">MONACO</h4>
           <p class="italic">Monaco one of the beautiful country known for his  "RICH CULTURE"</p>
         </div>
       </div>
     </section>
+    <section id="fact" class="bg-red-900 text-black py-10 old-style-border mb-12">
+      <div class="container mx-auto px-4 text-center">
+        <h3 class="text-4xl text-green-400 font-semibold mb-8 text-shadow-[0_35px_35px_rgb(0_0_0_/_0.25)]">Intresting fact about these places</h3>
+        <div class="grid md:grid-cols-3 gap-4">
+          <blockquote class="bg-gray-800 text-blue-100 p-4 rounded shadow-md border border-blue-400">
+           "PRAGUE" has a long and layered history, earning its reputation as one of the most culturally significant cities in Central Europe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cupiditate ut debitis.
+          </blockquote>
+          <blockquote class="bg-gray-800 text-pink-200 p-4 rounded shadow-md border border-pink-400">
+            "SINGAPORE" The lion City This Southeast Asian capital has drawn much attention over recent years as a must-visit travel destination. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque dicta nesciunt quidem!
+          </blockquote>
+          <blockquote class="bg-gray-800 text-green-200 p-4 rounded shadow-md border border-green-400">
+            "MONACO" is known for being the city of the rich and famous while still being a highly sustainable city-state. Those who live in Monaco live a life of luxury, making it the ideal destination for those who want to experience what a city of riches and luxury can offer. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, adipisci.
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
 
     <section id="about" class="container mx-auto px-4 py-10 text-center old-style-border mb-12">
       <h3 class="text-4xl font-semibold text-green-300 mb-4">Beautiful WOrld</h3>
       <div class="flex flex-col items-center gap-4">
         <img
           src="https://tse2.mm.bing.net/th?id=OIP.n0tiy0zLJjdNnsj9HMIsWwHaHa&pid=Api&P=0&h=180"
-          alt="Ranbir Ofcourse"
+          alt="Earth"
           class="w-32 h-32 object-cover rounded-full border-4 border-green-400"
         />
         <p class="max-w-2xl text-sm">
@@ -96,9 +115,71 @@
         </p>
       </div>
     </section>
+    <section id="faq" class="container mx-auto px-4 py-12 text-center old-style-border mt-6 mb-10">
+  <h3 class="text-4xl font-bold text-yellow-300 mb-6">FAQ's</h3>
+  <div class="space-y-4 max-w-2xl mx-auto text-left">
+    
+    <div class="border border-blue-500 rounded">
+      <button class="w-full text-left px-4 py-3 font-semibold bg-pink-800 text-black focus:outline-none toggle-faq">
+        Are these places are safe for tourists?
+      </button>
+      <div class="hidden px-4 py-3 bg-pink-900 text-white-600">
+        Ofcourse yes these places are safe for tourists.
+      </div>
+    </div>
 
-    <footer class="bg-purple-300 p-4 text-center text-sm text-lime-300 old-style-border w-full">
+    <div class="border border-blue-500 rounded">
+      <button class="w-full text-left px-4 py-3 font-semibold bg-green-800 text-black focus:outline-none toggle-faq">
+        Which is most expensive among these three places?
+      </button>
+      <div class="hidden px-4 py-3 bg-green-900 text-white-600">
+        Generally,Monaco is considered as expensive.
+      </div>
+    </div>
+
+    <div class="border border-blue-500 rounded">
+      <button class="w-full text-left px-4 py-3 font-semibold bg-blue-400 text-black focus:outline-none toggle-faq">
+      Are these places located nearby?
+      </button>
+      <div class="hidden px-4 py-3 bg-blue-400 text-white-600">
+        NO.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<button id="backToTop"
+        onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+        class="hidden fixed bottom-4 right-4 bg-green-500 text-black px-5 py-2 rounded shadow-lg hover:bg-yellow-400 transition duration-300 ease-in-out">
+  ↑UP
+</button>
+
+</main>
+
+
+    <footer class="bg-purple-300 p-4 text-center text-sm text-black old-style-border w-full">
       <p>Enjoy With Joy !!</p>
     </footer>
+    <script>
+      document.querySelectorAll('.toggle-faq').forEach(button => {
+        button.addEventListener('click', () => {
+          const answer = button.nextElementSibling;
+          answer.classList.toggle('hidden');
+        });
+      });
+      const btn = document.getElementById('backToTop');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      btn.classList.remove('hidden');
+      btn.classList.add('block');
+    } else {
+      btn.classList.remove('block');
+      btn.classList.add('hidden');
+    }
+  });
+    </script>
+
   </body>
 </html>
